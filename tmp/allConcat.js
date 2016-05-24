@@ -8,8 +8,8 @@ $(document).ready(function(){
 
     var newMessage = new Message(toField, fromField, messageField);
 
-  $('#output').text(newMessage.read());
-});
+    $('#output').text(newMessage.read());
+  });
 });
 
 $(document).ready(function(){
