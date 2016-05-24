@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $('#color-form').submit(function(event){
+    event.preventDefault();
+    $('#time-color').text(moment());
+  });
+  $('#address-form').submit(function(event){
+    event.preventDefault();
+    $('#time-address').text(moment());
+  });
+  $('#email').submit(function(event){
+    event.preventDefault();
+    $('#time-email').text(moment());
+  });
+});

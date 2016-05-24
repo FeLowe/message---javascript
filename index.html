@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="build/js/vendor.min.js"></script>
+     <link rel="stylesheet" href="build/css/vendor.css">
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Message</title>
+  </head>
+<body>
+  <div class="container">
+  <form id="email">
+    <div class="form-group">
+    <label for="toInputTag">To: </label>
+    <input type="text" id="to" name="toInputTag">
+    <label for="fromInputTag">From: </label>
+    <input type="text" id="from" name="fromInputTag">
+    <label for="message">Message: </label>
+    <input type="text" id="message" name="messageInputTag">
+    <button class="btn-success" type="submit" name="button">Send</button>
+  </div>
+  </form><br>
+  <form id="address-form">
+    <div class="form-group">
+     <label for="address">Enter your address:</label>
+     <input id="address" type="text">
+     <button class="btn-success" type="submit">Submit</button>
+   </div>
+   </form>
+   <form id="color-form">
+     <div class="form-group">
+      <label for="color">Enter your favorite color:</label>
+      <input id="color" type="text">
+      <button class="btn-success" type="submit">Submit</button>
+      </div>
+    </form>
+
+    <h3>Well look at the time! </h3>
+      <ul id="output"></ul>
+        <h3 id="time-email"></h3>
+      <ul id="outputForAddress"></ul>
+        <h3 id="time-address"></h3>
+
+      <ul id="outputForColor"></ul>
+        <h3 id="time-color"></h3>
+</div>
+</body>
+</html>
